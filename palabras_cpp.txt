@@ -1,0 +1,61 @@
+asm,Ensamblador,Permite insertar codigo ensamblador directamente (uso especifico).
+auto,Automatico,Infiere el tipo de una variable a partir de su inicializador (desde C++11).
+bool,Booleano,Tipo de dato para valores verdadero/falso (true/false).
+break,Romper,Termina la ejecucion del bucle (for, while, do-while) o switch mas cercano.
+case,Caso,Etiqueta usada dentro de una instruccion switch para definir un bloque de codigo.
+catch,Capturar,Bloque de codigo que maneja una excepcion lanzada por un bloque try.
+char,Caracter,Tipo de dato para almacenar caracteres individuales (letras, numeros, simbolos).
+class,Clase,Define un tipo de dato abstracto con miembros (datos y funciones).
+const,Constante,Especifica que una variable o miembro no puede ser modificado tras inicializarse.
+const_cast,Conversion Constante,Operador de conversion que elimina la cualidad 'const' o 'volatile'.
+continue,Continuar,Salta el resto de la iteracion actual de un bucle y pasa a la siguiente.
+default,Por defecto,Etiqueta en 'switch' para el caso no coincidente. Tambien para funciones especiales de clase.
+delete,Eliminar,Operador para liberar memoria asignada dinamicamente con 'new'.
+do,Hacer,Inicia un bucle do-while, que ejecuta su bloque al menos una vez.
+double,Doble,Tipo de dato para numeros de punto flotante de doble precision.
+dynamic_cast,Conversion Dinamica,Operador de conversion segura entre tipos en jerarquias polimorficas.
+else,Si no,Ejecuta un bloque de codigo si la condicion de un 'if' es falsa.
+enum,Enumeracion,Define un tipo con un conjunto de constantes enteras con nombre.
+explicit,Explicito,Evita que un constructor o conversion sea usado implicitamente.
+extern,Externo,Declara una variable/funcion definida en otro lugar (enlace externo).
+false,Falso,Literal booleano que representa el valor falso.
+float,Flotante,Tipo de dato para numeros de punto flotante de precision simple.
+for,Para,Estructura de control para bucles con inicializacion, condicion e incremento.
+friend,Amigo,Permite a una funcion o clase externa acceder a miembros privados/protegidos.
+goto,Ir a,Realiza un salto incondicional a una etiqueta (generalmente desaconsejado).
+if,Si,Estructura de control que ejecuta codigo si una condicion es verdadera.
+inline,En linea,Sugerencia al compilador para sustituir la llamada a funcion por su codigo.
+int,Entero,Tipo de dato fundamental para numeros enteros.
+long,Largo,Modificador para aumentar el rango de tipos enteros o double.
+mutable,Mutable,Permite modificar un miembro de dato dentro de un metodo const de una clase.
+namespace,Espacio de nombres,Agrupa declaraciones para evitar colisiones de nombres.
+new,Nuevo,Operador para asignar memoria dinamicamente en el monton (heap).
+operator,Operador,Permite sobrecargar operadores estandar (+, -, *, etc.) para clases.
+private,Privado,Especificador de acceso: solo la propia clase (y amigos) pueden acceder.
+protected,Protegido,Especificador de acceso: la clase, clases derivadas y amigos pueden acceder.
+public,Publico,Especificador de acceso: cualquier codigo puede acceder.
+register,Registro,Sugerencia (obsoleta/ignorada) para almacenar una variable en registro de CPU.
+reinterpret_cast,Reinterpretar Conversion,Operador de conversion de bajo nivel que reinterpreta bits.
+return,Retornar,Termina la ejecucion de una funcion y opcionalmente devuelve un valor.
+short,Corto,Modificador para reducir el rango (y posiblemente tamaño) de 'int'.
+signed,Con signo,Modificador (implicito para int) que indica que puede tener valores negativos.
+sizeof,Tamano de,Operador que devuelve el tamano en bytes de un tipo o variable.
+static,Estatico,Modificador con varios usos (variable local persistente, miembro de clase compartido, enlace interno).
+static_cast,Conversion Estatica,Operador de conversion para conversiones seguras en tiempo de compilacion.
+struct,Estructura,Similar a 'class' (miembros publicos por defecto), usada para agrupar datos.
+switch,Selector,Estructura de control para seleccionar un bloque de codigo (case) basado en un valor.
+template,Plantilla,Permite escribir codigo generico (funciones/clases) para diferentes tipos.
+this,Este,Puntero implicito dentro de un metodo que apunta al objeto actual.
+throw,Lanzar,Lanza una excepcion para ser manejada por un bloque 'catch'.
+true,Verdadero,Literal booleano que representa el valor verdadero.
+try,Intentar,Inicia un bloque de codigo que puede lanzar excepciones.
+typedef,Definicion de tipo,Crea un alias (sinonimo) para un tipo de dato existente.
+typeid,ID de tipo,Operador que devuelve informacion sobre el tipo de un objeto en tiempo de ejecucion (RTTI).
+typename,Nombre de tipo,Indica que un identificador dependiente en una plantilla es un tipo.
+union,Union,Estructura donde todos los miembros comparten la misma memoria.
+unsigned,Sin signo,Modificador para tipos enteros que solo representan valores no negativos.
+using,Usando,Introduce nombres de un namespace, crea alias de tipo (C++11), declara herencia.
+virtual,Virtual,Habilita el polimorfismo (en funciones miembro) o la herencia virtual.
+void,Vacio,Indica ausencia de tipo (retorno de funcion) o puntero generico (void*).
+volatile,Volatil,Indica que una variable puede cambiar externamente y evita ciertas optimizaciones.
+while,Mientras,Estructura de control para bucles que se ejecutan mientras una condicion sea verdadera.
